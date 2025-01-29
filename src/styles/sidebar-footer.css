@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -70,7 +70,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -99,9 +98,7 @@ body {
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
-    font-family: "DM Sans", sans-serif;
     border-radius: 10px;
-
 }
 
 .section-playlist .section-playlist__content {
@@ -131,7 +128,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -166,9 +162,7 @@ body {
     width: 170px;
     margin: 8px;
     padding: 8px;
-    border-radius: 20px;
-    font-family: "DM Sans", sans-serif;
-    
+    border-radius: 20px;    
 }
 
 .disclaimer-premium{
@@ -189,16 +183,16 @@ body {
 .disclaimer-premium .disclaimer-premium__title{
     color: #fff;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 12px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle{
     color: #fff;
     font-size: 14px;
     font-weight: 500;
-
 }
 
 .disclaimer-premium button{
